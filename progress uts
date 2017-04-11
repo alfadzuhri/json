@@ -1,0 +1,15 @@
+html>
+<head>
+<title> Form </title>
+</head>
+<body> <h1>
+ Perkiraan Cuaca </h1>
+
+ <pre>
+ <form action ="json.php" method="post">
+  Negara    : <input type="text" name ="nama"></br>
+  <input type ="submit" value="kirim" name="kirim">
+  </form>
+</pre>
+</body>
+</html>
